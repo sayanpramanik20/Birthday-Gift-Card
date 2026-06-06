@@ -1,0 +1,157 @@
+body{
+    /* background-color: rgb(255, 213, 235); */
+    background:linear-gradient(yellow,rgb(39, 182, 248),pink);
+    height: 100%;
+    margin: 0;
+    text-align:center;
+    color:rgb(192, 246, 255);
+    font-family: "Happhy Monkey", system-ui;
+    font-size: xx-large;
+    text-shadow: 0px 0px 5px black;
+}
+
+#main-img{
+object-fit: cover;
+border-radius:50% ;
+height: 300px;
+width: 300px;
+border: 6px solid rgb(202, 155, 247);
+border-style: dotted;
+}
+
+#header{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#wishes{
+    color:black;
+    text-shadow: 0px 0px 2px black;
+}
+
+#bday-age{
+background:rgb(177, 178, 242);
+padding: 5px 10px;
+border-radius: 10px;
+margin-bottom: 1px;
+
+}
+
+#bday-date{
+background:rgb(90, 209, 245);
+padding: 5px 10px;
+border-radius: 10px;
+}
+
+/* .giftbox {
+width:400px;
+border: 6px solid white;
+border-radius: 10px;
+background-size: cover;
+} */
+
+.gift-title{
+    margin-top: 50px;
+
+}
+
+.giftimg{
+margin: 0 auto;
+width:500px;
+height: 600px;
+border: 6px solid white;
+border-radius: 10px;
+background-image: url("images/bdaygift.avif");
+background-size: cover;
+}
+
+.giftimg:hover{
+    background-image: url("images/1stDate.jpeg");
+    background-size: cover;
+}
+
+#first-gift{
+    margin-top:50 px;
+}
+
+.giftimg2{
+margin: 0 auto;
+width:500px;
+height: 600px;
+border: 6px solid white;
+border-radius: 10px;
+background-image: url("images/bdaygift.avif");
+background-size: cover;
+}
+
+.giftimg2:hover{
+    background-image: url("images/durgapuja.jpeg");
+    background-size: cover;
+}
+
+.giftimg3{
+margin: 0 auto;
+width:600px;
+height: 500px;
+border: 6px solid white;
+border-radius: 10px;
+background-image: url("images/bdaygift.avif");
+background-size: cover;
+}
+
+.giftimg3:hover{
+    background-image: url("images/milanmela.jpeg");
+    background-size: cover;
+    width: 600px;
+    
+}
+
+.giftimg4{
+margin: 0 auto;
+width:500px;
+height: 600px;
+border: 6px solid white;
+border-radius: 10px;
+background-image: url("images/bdaygift.avif");
+background-size: cover;
+}
+
+.giftimg4:hover{
+    background-image: url("images/bgarden.jpeg");
+    background-size: cover;
+}
+
+.giftimg5{
+margin: 0 auto;
+width:500px;
+height: 600px;
+border: 6px solid white;
+border-radius: 10px;
+background-image: url("images/bdaygift.avif");
+background-size: cover;
+}
+
+.giftimg5:hover{
+    background-image: url("images/favourite.jpeg");
+    background-size: cover;
+}
+/* id selectors are more specific than clss selectors */
+
+/* creating a footer on my site */
+#footer{
+    color:black;
+    font-style: italic;
+    width: 300px;
+    /* margin: 0px auto ;  0 at top and bottom , auto at left and right */
+    margin: 40px auto 20px;  /* 40 at top , auto at left and right , 20 at bottom */
+}
+
+a{
+    color:brown;
+}
+
+/* adding background gradient */
+/* linear-gradient(first color, second color) */
+
