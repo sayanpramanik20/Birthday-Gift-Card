@@ -1,6 +1,6 @@
 body{
     /* background-color: rgb(255, 213, 235); */
-    background:linear-gradient(violet,yellow,rgb(39, 182, 248),pink);
+    background:linear-gradient(yellow,rgb(39, 182, 248),pink);
     height: 100%;
     margin: 0;
     text-align:center;
